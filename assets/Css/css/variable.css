@@ -1,0 +1,75 @@
+/* root site color */
+:root  {
+    --main-site-hdr:#fff;
+    --main-site-text:#0b0b0d;
+    --main-site-background1 :	#373538;
+     --main-site-h1-h2:orange; 
+    --main-transparent: transparent ;
+    --main-site-background: #7a7a7a28;
+    --main-site-text2:#53624ee8;
+    --main-site-text3:#61ce70;
+    --main-site-hr-line: grey;
+   --main-site-trans:transparent;
+   --main-site-end:black;
+}
+
+:root{
+    /* --main-site-font-minn-size :13px; */
+    --main-site-font-size :14px;
+    --main-site-font-min-med-size :20px;
+    --main-site-font-med-size :30px;
+    --main-site-font-max-size  : 70px;
+    --main-site-font-max3-size:40px;
+    --main-site-max-2-size :50px;
+    --main-site-line-height: 1.3rem;
+    --main-site-font-weight:100;
+    --main-site-font-min1-size :12px;
+
+}
+:root{
+    --font-family-1 :'Roboto';
+    --font-family-2 : 'Poppins' sans-serif;
+}
+
+
+/* Note all media queries starts from 768px max-width */
+
+
+  
+
+
+
+
+  
+    
+
+
+
+/*  navigation to other pages and loading of contents   
+/*let pageName = window.location.pathname.split("/").pop().split(".")[0];
+let links = document.querySelectorAll(".element-top-nav-bar-links")
+
+links.forEach((element, i )=> {
+  if(element.getAttribute("aria-data-type") === pageName.toLowerCase()){
+    links[i].classList.add("active") 
+  }
+});*/
+
+
+
+/*Adding the Slide-show-container to the home-section
+ /*var slideIndex = 0;
+  showSlides();
+
+  function showSlides(){
+   var ii;
+   var slides = document.getElementsByClassName('element-home-section-container');
+   for(ii = 0; ii < slides.length ; ii++){
+    slides[ii].style.display = 'none'
+   }
+    slideIndex++;
+   if(slideIndex > slides.length){
+    slideIndex = 1}
+   slides[slideIndex-1].style.display = 'block'
+   setTimeout(showSlides, 2000);
+   };*/
